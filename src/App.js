@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
+
 import './App.css';
+import NavBar from './Components/NavBar';
+import Home from './Pages/Home';
+// import Bio from "./Pages/Bio";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <Router>
+      <Switch>
+        <React.Fragment>
+            <div>
+            <NavBar />
+              <Route   path="/" component={Home} exact />
+              {/* <Route path="/calendario" component={Bio}  /> */}
+            </div>
+        </React.Fragment>
+      </Switch>
+    </Router>      
+    </>
+    
   );
 }
 

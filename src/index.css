@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.h-120{
+  height: 28rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-politicamente{
+  background: rgb(65,65,63);
+  background: radial-gradient(circle, rgba(65,65,63,1) 0%, rgba(135,134,135,1) 100%);
+}
+
+.thumb{
+  display: none !important;
+}
+
+.thumbs-wrapper{
+  display: none !important;
+}
+
+.bg-primary-color{
+  background: #5d135a;
 }
