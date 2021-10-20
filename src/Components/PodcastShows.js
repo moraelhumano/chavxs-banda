@@ -14,16 +14,16 @@ class PodcastShows extends Component{
     render() {
         return (
         <>
-            <section className="w-full flex justify-center flex-col mt-12">
+            <section className="w-full flex justify-center flex-col mt-6 md:mt-12">
             <Zoom>
                 <div className="title-section">
-                    <h3 className="text-7xl md:text-3xl text-gray-600 text-center text-white font-bold leading-none">
+                    <h3 className="text-2xl md:text-5xl text-gray-600 text-center text-white font-bold leading-none">
                         NUESTROS PODCAST
                     </h3>
                 </div>
             </Zoom>  
                 <div className="min-w-7xl flex justify-center flex-col md:flex-row mt-8">
-                    <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col">
+                    <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                         <div className="w-full rounded-t-lg flex justify-center" style={{background:'#9c9692'}}>
                             <a  href="#">
                                 <img className="w-64 rounded-t-lg" src={StatusQlo} alt="" />
@@ -59,8 +59,8 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col mx-4">
-                    <div className="bg-white w-full rounded-t-lg flex justify-center" >
+                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col m-auto md:m-0 md:mx-2">
+                    <div className="bg-white w-full rounded-t-lg flex justify-center border-b-2" >
                         <a  href="#">
                             <img className="w-64 rounded-t-lg" src={Herejes} alt="" />
                         </a>
@@ -94,7 +94,7 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col">
+                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                     <div className="w-full rounded-t-lg flex justify-center" style={{backgroundColor: '#fff300'}}>
                         <a  href="#">
                             <img className="w-64 rounded-t-lg" src={CineYAlcohol} alt="" />
@@ -133,8 +133,8 @@ class PodcastShows extends Component{
 
 
 
-            <div className="min-w-7xl flex justify-center flex-col md:flex-row">
-                    <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col">
+            <div className="min-w-7xl flex justify-center flex-col md:flex-row mt-0 md:mt-6 ">
+                    <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                         <div className="bg-black w-full rounded-t-lg flex justify-center flex-col md:flex-row bg-politicamente">
                             <a  href="#">
                                 <img className="w-64 rounded-t-lg" src={Politicamente} alt="" />
@@ -169,7 +169,7 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col mx-4">
+                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0 md:mx-2">
                     <div className="bg-black w-full rounded-t-lg flex justify-center">
                         <a  href="#">
                             <img className="w-64 rounded-t-lg" src={LaMaldicion} alt="" />
@@ -204,7 +204,7 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center  flex-col">
+                <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                     <div className="bg-black w-full rounded-t-lg flex justify-center">
                         <a  href="#">
                             <img className="w-64 rounded-t-lg" src={SieteMachos} alt="" />
