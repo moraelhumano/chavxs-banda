@@ -19,6 +19,8 @@ import {
 import DescriptionText from '../Components/DescriptionText';
 import PodcastShows from '../Components/PodcastShows';
 import BannerRebelde from '../Components/BannerRebelde';
+import FanArtNote from '../Components/FanArtNote';
+
 // import MerchBanner from '../Components/MerchBanner';
 
 
@@ -41,6 +43,7 @@ class Home extends Component{
             <Projects />
             */}
              <Footer />
+             <FanArtNote />
         </Router>
         </>
 
