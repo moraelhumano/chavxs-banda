@@ -72,8 +72,21 @@ background: radial-gradient(circle, rgba(220,25,210,1) 0%, rgba(15,15,15,1) 100%
   width: 55vh;
 }
 
+.h-120 {
+  height: 30rem;
+}
 
+.h-fit-content{
+  height: fit-content;
+}
 
+.h-inherit{
+  height: inherit;
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
 @media(max-width: 480px) {
 
   
