@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import  Zoom  from 'react-reveal/Zoom';
+import  Fade  from 'react-reveal/Fade';
+
 
 import LaMaldicion from '../../src/lamaldicion-logo.jpg';
 import CineYAlcohol from '../../src/cineyalcohol.jpeg';
@@ -23,8 +25,8 @@ class PodcastShows extends Component{
                 </div>
             </Zoom>  
                 <div className="min-w-7xl flex justify-center flex-col md:flex-row mt-8">
+                <Fade left>
                     <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
-
                         <div className="w-full rounded-t-lg flex justify-center" style={{background:'#9c9692'}}>
                             <img className="w-64 rounded-t-lg" src={StatusQlo} alt="" />
                         </div>
@@ -60,6 +62,8 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
+                </Fade>
+                <Fade right>
                 <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0 md:mx-2">
                     <div className="bg-white w-full rounded-t-lg flex justify-center border-b-2" >
                         <img className="w-64 rounded-t-lg" src={Herejes} alt="" />
@@ -101,6 +105,8 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
+                </Fade>
+                <Fade left>
                 <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                     <div className="w-full rounded-t-lg flex justify-center" style={{backgroundColor: '#fff300'}}>
                         <img className="w-64 rounded-t-lg" src={CineYAlcohol} alt="" />  
@@ -132,10 +138,11 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
 
             <div className="min-w-7xl flex justify-center flex-col md:flex-row mt-0 md:mt-6 ">
-
+            <Fade right>
                 <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                         <div className="w-full rounded-t-lg flex justify-center flex-col md:flex-row bg-politicamente items-center">
                             <img className="w-64 rounded-t-lg" src={Politicamente} alt="" />
@@ -162,6 +169,8 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
+                </Fade>
+                <Fade left>
                 <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0 md:mx-2">
                     <div className="bg-black w-full rounded-t-lg flex justify-center">
                         <img className="w-64 rounded-t-lg" src={LaMaldicion} alt="" />
@@ -198,6 +207,8 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
+                </Fade>
+                <Fade right>
                 <div className="max-w-xs h-120 shadow-md border border-gray-200 rounded-lg  mb-5 flex items-center flex-col m-auto md:m-0">
                     <div className="bg-black w-full rounded-t-lg flex justify-center">
                         <img className="w-64 rounded-t-lg" src={SieteMachos} alt="" />
@@ -239,6 +250,7 @@ class PodcastShows extends Component{
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
 
 
